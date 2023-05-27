@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name:" />
+    <EditText
+        android:id="@+id/name_edit_text"
+        android:layout_width="390dp"
+        android:layout_height="88dp"
+        android:hint="Enter your name" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Subject:" />
+    <Spinner
+        android:id="@+id/subject_spinner"
+        android:layout_width="397dp"
+        android:layout_height="75dp"
+        android:contentDescription="@string/appbar_scrolling_view_behavior" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gender:" />
+    <RadioGroup
+        android:id="@+id/gender_radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/male_radio_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male" />
+        <RadioButton
+            android:id="@+id/female_radio_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female" />
+    </RadioGroup>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Qualification:" />
+    <CheckBox
+        android:id="@+id/qualification_check_box_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bachelor's degree" />
+    <CheckBox
+        android:id="@+id/qualification_check_box_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Master's degree" />
+    <CheckBox
+        android:id="@+id/qualification_check_box_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PhD" />
+    <Button
+        android:id="@+id/register_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:onClick="show"/>
+</LinearLayout>

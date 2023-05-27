@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Assign4</string>
+    <string-array name="spinner_items">
+        <item>NA</item>
+        <item>FOC</item>
+        <item>AD</item>
+        <item>DBM</item>
+    </string-array>
+</resources>
